@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title data-i18n="page.title">GloboSense – Online interpreters for online translations</title>
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="icons/favicon/image.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Font: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script src="/js/i18n.js"></script>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+  <img src="icons/logo/logo-cropped.png" alt="GloboSense logo" class="brand-logo">
+  <span class="brand-text" data-i18n="brand.name">GloboSense</span>
+</a>
+      <nav class="main-nav">
+        <a href="#clients" class="nav-link" data-i18n="nav.clients">For clients</a>
+        <a href="#interpreters" class="nav-link" data-i18n="nav.interpreters">For interpreters</a>
+        <a href="#investors" class="nav-link" data-i18n="nav.investors">For investors</a>
+      </nav>
+      <a href="#contact" class="btn btn--ghost header-cta" data-i18n="nav.login">Log in</a>
+      <div class="language-switcher">
+  <button onclick="loadLanguage('en')" data-lang="en">
+    <img src="icons/flags/gb.svg" alt="English">
+  </button>
+
+  <button onclick="loadLanguage('de')" data-lang="de">
+    <img src="icons/flags/de.svg" alt="Deutsch">
+  </button>
+
+  <button onclick="loadLanguage('pl')" data-lang="pl">
+    <img src="icons/flags/pl.svg" alt="Polski">
+  </button>
+</div>
+    </div>
+    
+
+  </header>
+
+  <main>
+    <!-- HERO – strongest for clients -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="pill" data-i18n="hero.pill">For clients • online interpreting</span>
+          <h1 data-i18n="hero.title">Online interpretation exactly when you need it.</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            GloboSense connects companies with the best live interpreters – via video, phone or chat.
+            Simple. No chaos. No delays.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn--primary" data-i18n="hero.cta.primary">Book a free demo</a>
+            <a href="#clients" class="btn btn--secondary" data-i18n="hero.cta.secondary">See how it works</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label" data-i18n="hero.meta.availability.label">Availability</span>
+              <span class="meta-value" data-i18n="hero.meta.availability.value">24/7 online</span>
+            </div>
+            <div>
+              <span class="meta-label" data-i18n="hero.meta.quality.label">Quality</span>
+              <span class="meta-value" data-i18n="hero.meta.quality.value">Verified interpreters</span>
+            </div>
+            <div>
+              <span class="meta-label" data-i18n="hero.meta.scalability.label">Scalability</span>
+              <span class="meta-value" data-i18n="hero.meta.scalability.value">From 1 call to thousends</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card hero-card--primary">
+            <h2 data-i18n="hero.card.quick.title">Quick connection with an interpreter</h2>
+            <p data-i18n="hero.card.quick.text">A few clicks and you have the right specialist on the line.</p>
+          </div>
+          <div class="hero-card hero-card--stack">
+            <div class="mini-card">
+              <span class="mini-label" data-i18n="hero.stats.connection_time.label">Average connection time</span>
+              <span class="mini-value" data-i18n="hero.stats.connection_time.value">&lt; 60 sec</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-label" data-i18n="hero.stats.languages.label">Languages</span>
+              <span class="mini-value" data-i18n="hero.stats.languages.value">50+ languages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS SECTION -->
+    <section id="clients" class="section section--clients">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="clients.title">GloboSense for clients</h2>
+          <p data-i18n="clients.intro">
+            A platform for meetings, sales calls and customer support
+            with instant access to online interpreters.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3 data-i18n="clients.card1.title">One place for all your meetings</h3>
+            <p data-i18n="clients.card1.text">
+              Combine video calls, phone and chat in one tool. The interpreter
+              joins exactly where you need them.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="clients.card2.title">Trusted, verified interpreters</h3>
+            <p data-i18n="clients.card2.text">
+              We verify experience, specialization and quality of interpreters,
+              so your meetings are safe and effective.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="clients.card3.title">Full cost control</h3>
+            <p data-i18n="clients.card3.text">
+              Transparent billing, per-minute rates and reports showing exactly
+              where and when interpretation is used.
+            </p>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <div>
+            <h3 data-i18n="clients.cta.title">Ready to test GloboSense in your organization?</h3>
+            <p data-i18n="clients.cta.text">We’ll set up a test account and trial calls within minutes.</p>
+          </div>
+          <a href="#contact" class="btn btn--primary" data-i18n="clients.cta.button">Let's talk</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERPRETERS SECTION -->
+    <section id="interpreters" class="section section--interpreters">
+      <div class="container interpreters-inner">
+        <div class="interpreters-copy">
+          <span class="pill pill--light" data-i18n="interpreters.pill">For interpreters</span>
+          <h2 data-i18n="interpreters.title">Join the GloboSense interpreter network.</h2>
+          <p data-i18n="interpreters.intro">
+            Work remotely and choose assignments that match your languages and specialization.
+            We handle the technology, you focus on interpreting.
+          </p>
+          <ul class="bullet-list">
+            <li data-i18n="interpreters.benefit1">Flexible hours – log in whenever you want to work.</li>
+            <li data-i18n="interpreters.benefit2">Transparent rates and fast online payments.</li>
+            <li data-i18n="interpreters.benefit3">Assignments from companies across different industries and markets.</li>
+          </ul>
+          <a href="#contact" class="btn btn--secondary" data-i18n="interpreters.cta.button">Apply as an interpreter</a>
+        </div>
+        <div class="interpreters-panel">
+          <div class="panel-card">
+            <h3 data-i18n="interpreters.panel.title">Interpreter panel</h3>
+            <p data-i18n="interpreters.panel.text">
+              Overview of available calls, your schedule and statistics of completed sessions
+              in one simple view.
+            </p>
+          </div>
+          <div class="panel-grid">
+            <div class="panel-item">
+              <span class="panel-label" data-i18n="interpreters.stats.rating.label">Average client rating</span>
+              <span class="panel-value" data-i18n="interpreters.stats.rating.value">4.9 / 5</span>
+            </div>
+            <div class="panel-item">
+              <span class="panel-label" data-i18n="interpreters.stats.assignments.label">New assignments daily</span>
+              <span class="panel-value" data-i18n="interpreters.stats.assignments.value">+120</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVESTORS / ABOUT US SECTION -->
+    <section id="investors" class="section section--investors">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="pill pill--muted" data-i18n="investors.pill">For investors</span>
+          <h2 data-i18n="investors.title">About GloboSense – building the standard for online interpreting.</h2>
+          <p data-i18n="investors.intro">
+            We connect companies, interpreters and agencies in one scalable ecosystem.
+            We develop our product based on data, user feedback and the global online meetings market.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <h3 data-i18n="investors.card1.title">The problem we solve</h3>
+            <p data-i18n="investors.card1.text">
+              Business operates globally, but interpretation is still organized manually.
+              GloboSense allows clients to connect with the right interpreter in seconds –
+              without emails, spreadsheets or long phone chains.
+            </p>
+          </article>
+          <article class="about-card">
+            <h3 data-i18n="investors.card2.title">Growth model</h3>
+            <p data-i18n="investors.card2.text">
+              We focus on supporting companies that run international sales meetings,
+              customer support and technical assistance. We scale as the number of calls grows.
+            </p>
+          </article>
+          <article class="about-card">
+            <h3 data-i18n="investors.card3.title">Market potential</h3>
+            <p data-i18n="investors.card3.text">
+              The online meetings market continues to grow, and the need for real-time interpretation
+              is becoming a standard. GloboSense positions itself as the language layer
+              for global communication.
+            </p>
+          </article>
+        </div>
+
+        <!-- Team: 5 people -->
+        <div class="team">
+          <div class="team-header">
+            <h3 data-i18n="team.title">The team behind GloboSense</h3>
+            <p data-i18n="team.intro">
+              Experience in technology, interpreting and scaling B2B products.
+              Short bios of key team members (to be completed).
+            </p>
+          </div>
+          <div class="team-grid">
+            <article class="team-member">
+              <div class="team-photo"></div>
+              <h4>Name Surname 1</h4>
+              <p class="team-role" data-i18n="team.member1.role">Co-founder &amp; CEO</p>
+            </article>
+            <article class="team-member">
+              <div class="team-photo"></div>
+              <h4>Name Surname 2</h4>
+              <p class="team-role" data-i18n="team.member2.role">Co-founder &amp; COO</p>
+            </article>
+            <article class="team-member">
+              <div class="team-photo"></div>
+              <h4>Name Surname 3</h4>
+              <p class="team-role" data-i18n="team.member3.role">CTO</p>
+            </article>
+            <article class="team-member">
+              <div class="team-photo"></div>
+              <h4>Name Surname 4</h4>
+              <p class="team-role" data-i18n="team.member4.role">Head of Growth</p>
+            </article>
+            <article class="team-member">
+              <div class="team-photo"></div>
+              <h4>Name Surname 5</h4>
+              <p class="team-role" data-i18n="team.member5.role">Head of Partnerships</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS SECTION -->
+<section id="partners" class="section section--partners">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <h2 data-i18n="partners.title">Our partners</h2>
+      <p data-i18n="partners.subtitle">Companies and organizations that trust GloboSense.</p>
+    </div>
+
+    <div class="partners-grid">
+  <div class="partner-logo">
+    <a href="https://www.hszg.de/" target="_blank" rel="noopener noreferrer">
+      <img src="icons/partners/hszg.png" alt="Partner 1">
+    </a>
+  </div>
+
+  <div class="partner-logo">
+    <a href="https://www.futuresax.de/en/" target="_blank" rel="noopener noreferrer">
+      <img src="icons/partners/fsax.png" alt="Partner 2">
+    </a>
+  </div>
+
+  <div class="partner-logo">
+    <a href="https://sprachwerklausitz.eu/blog/sprachendienst-landkreis-goerlitz/" target="_blank" rel="noopener noreferrer">
+      <img src="icons/partners/slg.png" alt="Partner 3">
+    </a>
+  </div>
+</div>
+</section>
+
+
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section--contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <h2 data-i18n="contact.title">Contact us and see GloboSense in action.</h2>
+          <p data-i18n="contact.intro">
+            Tell us briefly about your needs and we’ll return with a cooperation proposal
+            and a short product demo.
+          </p>
+        </div>
+        <div class="contact-placeholder">
+          <p class="contact-label" data-i18n="contact.placeholder">[Space for a contact form / Calendly link]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-grid">
+
+    <!-- BRAND -->
+    <div class="footer-col footer-brand">
+      <div class="footer-logo">
+        <img src="icons/logo/logo-cropped.png" alt="GloboSense logo">
+        <span data-i18n="footer.brand.name">GloboSense</span>
+      </div>
+      <p data-i18n="footer.brand.tagline">
+        Online interpreters for online translations — connecting clients,
+        interpreters and agencies.
+      </p>
+
+      <div class="footer-social">
+        <a href="#"><img src="icons/social/Facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="icons/social/Twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="icons/social/LinkedIN.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="icons/social/Instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-col">
+      <h4 data-i18n="footer.quick_links.title">Quick Links</h4>
+      <a href="#clients" data-i18n="footer.quick_links.clients">For Clients</a>
+      <a href="#interpreters" data-i18n="footer.quick_links.interpreters">For Interpreters</a>
+      <a href="#investors" data-i18n="footer.quick_links.investors">For Investors</a>
+      <a href="#partners" data-i18n="footer.quick_links.partners">Partners</a>
+      <a href="#contact" data-i18n="footer.quick_links.contact">Contact</a>
+    </div>
+
+    <!-- RESOURCES -->
+    <div class="footer-col">
+      <h4 data-i18n="footer.resources.title">Resources</h4>
+      <a href="#" data-i18n="footer.resources.about">About Us</a>
+      <a href="#" data-i18n="footer.resources.how_it_works">How It Works</a>
+      <a href="#" data-i18n="footer.resources.pricing">Pricing</a>
+      <a href="#" data-i18n="footer.resources.documentation">Documentation</a>
+      <a href="/faq.html" data-i18n="footer.resources.faq">FAQ</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p data-i18n="footer.bottom.copyright">© 2025 GloboSense. All rights reserved.</p>
+    <div class="legal-links">
+      <a href="/privacy-policy.html" data-i18n="footer.bottom.privacy">Privacy Policy</a>
+      <a href="/terms.html" data-i18n="footer.bottom.terms">Terms of Service</a>
+      <a href="/cookies.html" data-i18n="footer.bottom.cookies">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+</html>
